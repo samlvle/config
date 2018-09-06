@@ -26,4 +26,4 @@ management:
       show-details: always
   info : 
     git : 
-      mode : full    
+      mode : full
