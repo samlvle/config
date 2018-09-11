@@ -12,7 +12,7 @@ management:
   endpoints:
     web:
       exposure:
-        # * 在yaml 文件属于关键字，所以需要加引号 ,Actuator只暴露了health和info端点 ,暴露所有端点
+        # * 在yaml  文件属于关键字，所以需要加引号 ,Actuator只暴露了health和info端点 ,暴露所有端点
         include: "*"
   server:
     #port: ${healthport}
