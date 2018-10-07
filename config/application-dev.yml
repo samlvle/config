@@ -32,9 +32,9 @@ hystrix :
   stream : 
     dashboard : 
       intervalInMilliseconds: 5000
-spring:
-  zipkin :
-    base-url : http://localhost:9411
-  sleuth : 
-    sampler : 
-      percentage : 1
+#spring:
+  #zipkin :
+   # base-url : http://localhost:9411
+  #sleuth : 
+   # sampler : 
+     # percentage : 1
